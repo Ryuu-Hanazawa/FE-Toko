@@ -1,0 +1,27 @@
+.Head {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.CardWrapper {
+  width: 710px;
+  height: auto;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  background: #e6e6e6;
+  cursor: pointer;
+}
+
+.OrderHead,
+.OrderFooter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 425px) {
+  .CardWrapper {
+    width: 100%;
+  }
+}

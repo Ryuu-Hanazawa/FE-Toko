@@ -1,0 +1,85 @@
+#Section {
+  margin-top: 50px;
+}
+
+.List {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.List::-webkit-scrollbar {
+  display: none;
+}
+
+.Head {
+  margin-bottom: 30px;
+  padding: 0px 10px;
+}
+
+.Head > h2 {
+  color: #222;
+  margin-bottom: 4px;
+}
+
+.Item {
+  padding: 0 10px;
+}
+
+.ItemCategory {
+  min-width: 206px;
+  height: 220px;
+  position: relative;
+  float: left;
+  border-radius: 8px;
+}
+
+.ItemCategory > img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.ItemText {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0px 10px;
+  text-align: center;
+  font-size: 24px;
+  color: #fff;
+}
+
+@media screen and (max-width: 1140px) {
+  .List {
+    border-radius: 0;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .ItemCategory {
+    min-width: 151px;
+    height: 165px;
+  }
+
+  .ItemCategory > img {
+    height: 55%;
+  }
+
+  .ItemCategory .ItemText {
+    font-size: x-large;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .ItemText {
+    min-width: 126px;
+    height: 140px;
+  }
+}

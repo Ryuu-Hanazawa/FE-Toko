@@ -1,0 +1,27 @@
+#CollectionItem {
+  margin-top: 70px;
+}
+
+.Head {
+  margin-bottom: 30px;
+  padding: 0px 10px;
+}
+
+.Head h2 {
+  font-size: xx-large;
+  color: #222;
+  margin-bottom: 4px;
+}
+
+.FlexList {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width : 500px) {
+  .FlexList {
+    padding: 0px 2px;
+  }
+}

@@ -1,0 +1,331 @@
+nav {
+  background-color: #ffffff;
+  box-shadow: 0px 6px 40px rgba(173, 173, 173, 0.25);
+  top: 0;
+  z-index: 2;
+  /* position: fixed; */
+  width: 100%;
+}
+
+.NavContainer {
+  max-width: 1140px;
+  height: 85px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+.Logo {
+  font-weight: bold;
+  transition: color 0.2s;
+}
+
+a.Logo {
+  color: #db3022 !important;
+}
+
+.SearchArea {
+  max-width: 558px !important;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.SearchBar {
+  position: relative;
+  max-width: 507px;
+  width: 100%;
+}
+
+input.Search {
+  width: 100% !important;
+  height: 40px !important;
+  padding-left: 20px !important;
+  padding-right: 40px !important;
+  background-color: #ffffff !important;
+  border: 1px solid #8e8e93 !important;
+  border-radius: 23px !important;
+  font-size: 16px !important;
+  line-height: 16px !important;
+  color: #666666 !important;
+  box-sizing: border-box !important; 
+  margin: 0 !important;
+}
+
+.SearchIcon {
+  position: absolute !important;
+  z-index: 1;
+  top: 11px;
+  right: 20px;
+  cursor: pointer;
+}
+
+.Filter {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  border: 1px solid #8e8e93;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.Filter:hover {
+  box-shadow: 0 0 3pt 1pt rgba(173, 173, 173, 0.25);
+}
+
+.NavBtn {
+  max-width: 285px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.NavBtn > img {
+  margin-right: 20px;
+}
+
+.BtnWrap {
+  max-width: 220px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.CartIcon:hover {
+  cursor: pointer;
+}
+
+.Btn {
+  width: 100px;
+  height: 40px;
+  border-radius: 25px;
+  border: none;
+  font-size: 14px;
+  line-height: 20px;
+  cursor: pointer;
+  background-color: #00000000;
+  outline: none;
+}
+
+.Primary {
+  background-color: #db3022;
+  color: #ffffff;
+  outline: none;
+}
+
+.Primary:hover {
+  background-color: #db3122d3;
+}
+
+.Secondary {
+  background-color: transparent;
+  border: 1px solid #9b9b9b;
+  box-sizing: border-box;
+  color: #9b9b9b;
+  outline: none;
+}
+
+.Secondary:hover {
+  border: 1px solid #db3022;
+  box-sizing: border-box;
+  color: #db3022;
+}
+
+.NavMenu {
+  display: none;
+  position: relative;
+}
+
+.MenuList {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 70px;
+  background-color: #fdfdfd;
+  min-width: 240px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 12px;
+  padding: 10px 0;
+  font-family: "Metropolis Medium";
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.MenuList .Menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 15px;
+  color: #8e8e93;
+}
+
+.MenuList .Menu:hover {
+  background-color: #ecececb6;
+  color: #222222;
+}
+
+.NavMenu:hover .MenuList {
+  display: block;
+}
+
+.BtnWhite {
+  width: 36px;
+  height: 36px;
+  background-color: #fbfbfb;
+  border-radius: 50%;
+  border: none;
+}
+
+.BtnRed {
+  width: 36px;
+  height: 36px;
+  background-color: #f70c0c;
+  border-radius: 50%;
+  border: none;
+}
+.BtnBlue {
+  width: 36px;
+  height: 36px;
+  background-color: #037bfc;
+  border-radius: 50%;
+  border: none;
+}
+.BtnBlack {
+  width: 36px;
+  height: 36px;
+  background-color: #071d36;
+  border-radius: 50%;
+  border: none;
+}
+
+.Head {
+  margin-bottom: 30px;
+  padding: 0px 10px;
+}
+
+.Head h2 {
+  font-size: xx-large;
+  color: #222;
+  margin-bottom: 4px;
+}
+
+.FlexList {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.EmptySearch {
+  margin: 30px auto;
+}
+
+.EmptySearch h1 {
+  font-size: 2.25rem;
+  color: orangered;
+}
+
+.SearchImg {
+  width: 300px;
+  height: 300px;
+  margin-left: 250px;
+}
+
+.BtnPrimary {
+  background: orangered;
+  border-color: orangered;
+}
+
+.BtnPrimary:hover {
+  background: rgb(241, 102, 51);
+  border-color: orangered;
+}
+
+.BtnPrimary:focus {
+  background: rgb(241, 102, 51);
+  border-color: orangered;
+}
+
+@media screen and (max-width : 500px) {
+  .FlexList {
+    padding: 0px 2px;
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  .SearchArea {
+    padding: 0 20px;
+  }
+
+  .SearchBar {
+    padding-right: 10px;
+  }
+
+  .NavBtn {
+    max-width: 270px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .NavBtn {
+    display: none;
+  }
+
+  .NavMenu {
+    display: inline-block;
+  }
+
+  .Filter {
+    padding: 0 8px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .SearchArea {
+    padding: 0;
+    padding-left: 10px;
+  }
+
+  input.Search {
+    height: 30px;
+    font-size: 13px;
+    padding-left: 10px;
+    padding-right: 32px;
+  }
+
+  .SearchIcon {
+    top: 5px;
+  }
+
+  .Filter {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+    border-radius: 10px;
+  }
+
+  .NavMenu > .Btn > .Menu > .Btn {
+    font-size: 12px;
+    width: 70px;
+    height: 30px;
+  }
+
+  .MenuList {
+    top: 60px;
+    font-size: 14px;
+    min-width: 180px;
+  }
+}

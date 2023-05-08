@@ -1,0 +1,47 @@
+.ProfileWrapper {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+.ProfileInfo {
+  margin-left: 5px;
+  margin-top: 10px;
+}
+
+.Wrapper {
+  margin-top: 35px;
+}
+
+.ControlWrapper {
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.MyAccount,
+.Shipping,
+.Order {
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+}
+
+.MyAccount {
+  background: #DC143C;
+}
+
+.Shipping {
+  background: #f1f1f1;
+}
+
+.Order {
+  background: #DC143C;
+}
+
+.LogoImg {
+  width: 15px;
+  height: 15px;
+  margin-left: 7px;
+}

@@ -1,0 +1,223 @@
+.Main {
+  margin-top: 100px;
+}
+
+.FontTitle {
+  font-size: 12px;
+  color: #9b9b9b;
+}
+
+ul.HorizontalList {
+  min-width: 100%;
+  list-style: none;
+  margin-left: -30px;
+}
+
+ul.HorizontalList li {
+  margin: 0 10px 0 0;
+  display: inline;
+}
+
+.SmallImages {
+  width: 16%;
+}
+
+.FontTitle {
+  font-size: 12px;
+  color: #9b9b9b;
+}
+
+.Checked {
+  color: orange;
+}
+.ColorSelected {
+  width: 40px;
+  height: 40px;
+  border-spacing: 10px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.ColorOption {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+}
+.BtnChart {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  width: 200px;
+  height: 36px;
+  font-size: 12px;
+  background-color: #fff;
+  border: 1px solid gray;
+  color: gray;
+  transition: background 0.5s;
+}
+
+.BtnChart:hover {
+  border: 1px solid #db3022;
+  background-color: #db3022;
+  color: #fff;
+  text-decoration: none;
+}
+
+.BtnAddBag {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  width: 200px;
+  height: 36px;
+  font-size: 12px;
+  background-color: #fff;
+  border: 1px solid gray;
+  color: gray;
+  transition: background 0.5s;
+}
+
+.BtnAddBag:hover {
+  border: 1px solid #db3022;
+  background-color: #db3022;
+  color: #fff;
+  text-decoration: none;
+}
+
+.BtnBuy {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  width: 300px;
+  height: 36px;
+  font-size: 12px;
+  color: #fff;
+  background-color: #db3022;
+  border-color: #db3022;
+  transition: background 0.5s;
+}
+
+.BtnBuy:hover {
+  background-color: #ad1b0d;
+  color: #fff;
+  text-decoration: none;
+}
+
+.Bintang {
+  color: orange;
+}
+
+.Star {
+  height: 20px;
+}
+
+.Side {
+  float: left;
+  width: 15%;
+  margin-top: 10px;
+}
+
+.Middle {
+  margin-top: 18px;
+  float: left;
+  width: 70%;
+}
+
+.Right {
+  text-align: right;
+}
+
+.Row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.BarContainer {
+  width: 100%;
+  background-color: #f1f1f1;
+  text-align: center;
+  color: white;
+  border-radius: 25px;
+}
+
+.Bar5 {
+  width: 80%;
+  height: 10px;
+  background-color: #db3022;
+  border-radius: 25px;
+}
+.Bar4 {
+  width: 0%;
+  height: 10px;
+}
+.Bar3 {
+  width: 0%;
+  height: 10px;
+}
+.Bar2 {
+  width: 0%;
+  height: 10px;
+}
+.Bar1 {
+  width: 0%;
+  height: 10px;
+}
+
+.Price {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Plus {
+  color: black;
+}
+
+.Minus {
+  color: white;
+}
+
+/* Small */
+@media (max-width: 767.98px) {
+  .Btn {
+    position: fixed;
+    height: 60px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: white !important;
+    text-align: center;
+  }
+
+  .BtnBtm {
+    margin: 2px;
+  }
+
+  .BtnGrup {
+    display: none;
+  }
+}
+
+/* Medium */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .Btn {
+    position: fixed;
+    height: 60px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: white !important;
+    text-align: center;
+    padding: 5;
+  }
+
+  .BtnBtm {
+    margin: 2px;
+  }
+
+  .BtnGrup {
+    display: none;
+  }
+}

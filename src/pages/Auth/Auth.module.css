@@ -1,0 +1,239 @@
+==================================================
+/* REUSABLE COMPONENTS */
+/* ================================================== */
+.Row {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.Link {
+  text-decoration: none;
+  color: white;
+}
+
+.Link:hover {
+  color: white;
+}
+
+/* === Buttons === */
+.BtnGroup {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+.Btn {
+  padding: 15px 30px;
+  text-decoration: none;
+  width: 123px;
+  font-size: 14px;
+  transition: background-color 0.2s;
+}
+
+.BtnFull {
+  background-color: #db3022;
+  width: 123px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  color: #fff;
+}
+
+.BtnFullLeft {
+  background-color: #db3022;
+  width: 123px;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  color: #fff;
+}
+
+.BtnFullLeft:hover {
+  background-color: #ad1b0d;
+}
+
+.BtnFull:hover {
+  background-color: #ad1b0d;
+}
+
+.BtnGhost {
+  border: 1px solid gray;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  color: gray;
+}
+
+.BtnGhost:hover {
+  border: 1px solid #db3022;
+  background-color: #db3022;
+  color: #fff;
+}
+
+.BtnGhostRight {
+  border: 1px solid gray;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  color: gray;
+}
+
+.BtnGhost:hover {
+  border: 1px solid #db3022;
+  background-color: #db3022;
+  color: #fff;
+}
+
+/* ================================================== */
+/* LOGIN/SIGN text SECTION */
+/* ================================================== */
+#FormContainer {
+  margin: 100px 100px;
+  margin-top: 85px;
+  text-align: center;
+}
+
+#FormContainer h2 {
+  margin-top: 50px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.Logo {
+  display: flex;
+  justify-content: center;
+  color: #db3022;
+}
+
+.Logo h1 {
+  margin: 20px 0px 0px 10px;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 20px;
+}
+
+/* === Form === */
+.FillForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.FormSection {
+  margin-top: 50px;
+}
+
+.ErrorMsg {
+  color: rgb(248, 31, 31);
+  font-size: 16;
+  text-align: center;
+}
+
+.Reset {
+  display: inline-block;
+  margin-top: 25px;
+  width: 400px;
+  font-size: 14px;
+  text-align: right;
+  align-self: center;
+}
+
+.ErrorMsg {
+  text-align: center;
+  color: red;
+  font-size: 16px;
+}
+
+.Reset .Link {
+  color: #db3022;
+}
+
+.Text {
+  font-size: 14px;
+  margin-top: 25px;
+}
+
+.Text .Link {
+  color: #db3022;
+}
+
+.TxtConfirm {
+  color: #9b9b9b;
+  width: 75%;
+  margin: 20px auto;
+}
+
+.ColInput {
+  margin-top: 15px;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="name"],
+input[type="tel"],
+input[type="text"] {
+  width: 400px;
+  margin: auto;
+  padding: 7px 0px 7px 15px;
+  height: 48px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+.SubmitBtn {
+  display: inline-block;
+  font-size: 14px;
+  width: 400px;
+  margin-top: 25px;
+  padding: 15px 30px;
+  border-radius: 200px;
+  background-color: #db3022;
+  color: #fff;
+  transition: background-color 0.2s;
+}
+
+.SubmitBtn:hover {
+  background-color: #ad1b0d;
+}
+
+/* SMALL DEVICES 0 - 480PX */
+@media only screen and (max-width: 480px) {
+  /* ================================================== */
+  /* LOGIN PAGE */
+  /* ================================================== */
+  #FormContainer h2 {
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .Text {
+    font-size: 12px;
+    text-align: left;
+  }
+
+  input[type="email"],
+  input[type="password"],
+  input[type="name"],
+  input[type="tel"],
+  input[type="text"] {
+    width: 9.5rem;
+  }
+
+  .FormInput {
+    align-self: center;
+  }
+
+  .Btn {
+    padding: 10px 15px;
+    width: 100%;
+  }
+
+  .SubmitBtn {
+    width: 190px;
+  }
+
+  .Reset {
+    width: 190px;
+  }
+}

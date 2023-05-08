@@ -1,0 +1,34 @@
+.Head {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.Label {
+  margin-right: 600px;
+}
+
+.BtnPrimary {
+  background: #DC143C;
+  border-radius: 20px;
+  border-color: #DC143C;
+  width: 100px;
+}
+
+.BtnPrimary:hover {
+  background: #DC143C;
+  border-color: #DC143C;
+}
+
+.BtnPrimary:focus {
+  background: #DC143C;
+  border-color: #DC143C;
+}
+
+@media screen and (max-width: 425px) {
+  .Label {
+    margin-right: 300px;
+  } 
+  .Input {
+    width: 100% !important;
+  }
+}

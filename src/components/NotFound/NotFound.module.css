@@ -1,0 +1,13 @@
+.LoaderContainer {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+.Loader {
+	width: 296px;
+	height: 296px;
+	margin: auto;
+	align-self: center;
+}

@@ -1,0 +1,56 @@
+#Section {
+  margin-top: 50px;
+}
+
+.List {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.List::-webkit-scrollbar {
+  display: none;
+}
+
+.ItemTags {
+  position: relative;
+  padding: 0px 10px;
+  float: left;
+}
+
+.ItemTags > img {
+  border-radius: 8px;
+  width: 456px;
+  height: 180px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.ItemText {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0px 10px;
+  text-align: center;
+  color: #fff;
+  font-size: xx-large;
+}
+
+@media screen and (max-width : 1140px){
+  .List {
+    border-radius: 0;
+  }
+}
+
+@media screen and (max-width : 900px) {
+  .ItemTags > img {
+    width: 341px;
+  }
+}
+

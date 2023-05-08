@@ -1,0 +1,16 @@
+.FlexList {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+#CollectionItem {
+  margin-top: 70px;
+}
+
+@media screen and (max-width : 500px) {
+  .FlexList {
+    padding: 0px 2px;
+  }
+}

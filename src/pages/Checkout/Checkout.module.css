@@ -1,0 +1,129 @@
+.Wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.CheckoutWrapper {
+  display: flex;
+  flex-direction: row;
+  width: 720px;
+  height: 126px;
+  background: #D1D0CE;
+  border-radius: 20px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-top: 15px;
+}
+
+.BagWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.ProductImg {
+  width: 80px;
+  height: 69px;
+  margin-right: 5px;
+  border-radius: 15px;
+}
+
+.ProductInfo {
+  display: flex;
+  flex-direction: row;
+  margin-top: 8px;
+  margin-left: 5px;
+}
+
+.SummaryCard {
+  width: 370px;
+  height: auto;
+  padding: 20px;
+  background: #D1D0CE;
+  border-radius: 15px;
+  margin-top: 15px;
+}
+
+.TotalPrice {
+  display: flex;
+  flex-direction: row;
+  padding-right: 10px;
+  justify-content: space-between;
+}
+
+.Divider {
+  border: 2px solid black;
+}
+
+.BuyBtn {
+  width: 330px;
+  height: 40px;
+  border-radius: 20px;
+  background: #DB3022;
+  border-color: #DB3022;
+  transition: all 0.5s;
+}
+
+.BuyBtn:hover {
+  background: #fa2b18;
+  border-color: #DB3022;
+}
+
+.BuyBtn:active {
+  background: #fa2b18;
+  border-color: #DB3022;
+}
+
+.PaymentList {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.PaymentWrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.FormCheck:checked {
+  background: #DB3022;
+  border-color: #DB3022;
+}
+
+.Payment {
+  width: 55px;
+  height: 45px;
+  border-radius: 10px;
+  background: #D1D0CE;
+}
+
+.PaymentLogo {
+  font-size: 28px;
+  color: rgb(11, 11, 13);
+  text-align: center;
+}
+
+.Checkbox {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+  .Wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .BagWrapper {
+    width: 100%;
+  }
+  .SummaryCard {
+    width: 100%;
+    margin-top: 50px;
+  }
+  .BuyBtn {
+    width: 100%;
+  }
+}

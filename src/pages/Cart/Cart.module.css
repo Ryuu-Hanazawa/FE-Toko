@@ -1,0 +1,77 @@
+.CartWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.BagWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.SummaryCard {
+  width: 370px;
+  height: 180px;
+  padding: 20px;
+  background: #D1D0CE;
+  border-radius: 15px;
+  margin-top: 15px;
+}
+
+.TotalPrice {
+  display: flex;
+  flex-direction: row;
+  padding-right: 10px;
+  justify-content: space-between;
+}
+
+.BuyBtn {
+  width: 322px;
+  height: 40px;
+  border-radius: 20px;
+  background: #DB3022;
+  border-color: #DB3022;
+  transition: all 0.5s;
+}
+
+.BuyBtn:hover {
+  background: #fa2b18;
+  border-color: #DB3022;
+}
+
+.BuyBtn:active {
+  background: #fa2b18;
+  border-color: #DB3022;
+}
+
+.Cart {
+  width: 200px;
+}
+
+.Warning {
+  width: 720px;
+  margin-left: 400px;
+}
+
+@media screen and (max-width: 1024px) {
+  .CartWrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .SummaryCard {
+    width: 100%;
+    margin-top: 50px;
+  }
+  .BuyBtn {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  
+}
+
+@media screen and (max-width: 720px) {
+  
+}

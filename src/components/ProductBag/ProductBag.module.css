@@ -1,0 +1,64 @@
+.ProductCart {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  width: 720px;
+  height: 126px;
+  background: #f1f1f1;
+  box-shadow: 3px 10px 35px -5px rgba(184,184,184,1);
+  border-radius: 20px;
+  margin-top: 15px;
+}
+
+.ProductWrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.ProductInfo {
+  margin-top: 8px;
+  margin-left: 5px;
+}
+
+.ProductImg {
+  width: 80px;
+  height: 69px;
+  margin-left: 10px;
+  border-radius: 15px;
+  margin-top: 8px;
+}
+
+.TotalPrice {
+  position: relative;
+}
+
+.TrashIcon {
+  position: absolute;
+  right: 0;
+  top: -30px;
+  cursor: pointer;
+}
+
+.FormCheck:checked {
+  background-color: #DB3022;
+  border-color: #DB3022;
+}
+
+.Counter {
+  display: flex;
+  flex-direction: row;
+}
+
+.BtnCounter {
+  width: 36px;
+  height: 36px;
+  border-radius: 50px;
+}
+
+@media screen and (max-width: 1024px) {
+  .ProductCart {
+    width: 100%;
+  }
+}
